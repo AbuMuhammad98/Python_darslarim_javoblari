@@ -1,16 +1,16 @@
-# def biography(ism, familiya, tugilgan_yili, tugilgan_joy, email=None, telefen_raqam=None):
-#     yoshi = 2023 - tugilgan_yili  
-#     malumotnoma = {'Ism':ism,
-#                    'Familiya':familiya,
-#                    "Tug'ilgan yili":tugilgan_yili,
-#                    "Yoshi":yoshi,
-#                    "Tug'ilgan joy":tugilgan_joy,
-#                    "Email":email,
-#                    "Telefon raqam":telefen_raqam}
-#     return malumotnoma 
+def biography(ism, familiya, tugilgan_yili, tugilgan_joy, email=None, telefen_raqam=None):
+    yoshi = 2023 - tugilgan_yili  
+    malumotnoma = {'Ism':ism,
+                    'Familiya':familiya,
+                    "Tug'ilgan yili":tugilgan_yili,
+                    "Yoshi":yoshi,
+                    "Tug'ilgan joy":tugilgan_joy,
+                    "Email":email,
+                    "Telefon raqam":telefen_raqam}
+    return malumotnoma 
    
-# foydalanuvchi = biography('Zafar', 'Yusupov', 1998, 'Toshloq', 'Qwerty@gmail.com', 330061000)
-# print(foydalanuvchi)
+foydalanuvchi = biography('Zafar', 'Yusupov', 1998, 'Toshloq', 'Qwerty@gmail.com', 330061000)
+print(foydalanuvchi)
 
 # def biography(ism, familiya, tugilgan_yili, tugilgan_joy, email='', telefon_raqam=None):
 #     yoshi = 2023 - tugilgan_yili  
@@ -102,14 +102,14 @@
 # a = tub_sonlar_top(1, 50)
 # print(a)
 
-def fibonacci(n):
-    sonlar = []
-    for x in range(n):
-        if x ==0 or x == 1:
-            sonlar.append(1)
-        else:
-            sonlar.append(sonlar[x-1] + sonlar[x-2])
-    return sonlar
+# def fibonacci(n):
+#     sonlar = []
+#     for x in range(n):
+#         if x ==0 or x == 1:
+#             sonlar.append(1)
+#         else:
+#             sonlar.append(sonlar[x-1] + sonlar[x-2])
+#     return sonlar
 
-print(fibonacci(50))
+# print(fibonacci(50))
 
